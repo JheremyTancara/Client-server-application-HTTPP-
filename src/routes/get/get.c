@@ -8,7 +8,7 @@
 
 char *handle_root(struct Request *request) {
     char *response = "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 111\r\n\r\nHttp Server built with "
-                     "C\nVersion 1.0\nView on GitHub: https://github.com/MorveN11/http-server-c\nAuthor: MorveN11";
+                     "C\nVersion 1.0\nView on GitHub: https://github.com/JheremyTancara/Client-server-application-HTTPP-\nAuthor: JheremyTZ";
     return response;
 }
 
